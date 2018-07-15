@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/bdurb/weather-app/issues"
   },
-  "homepage": "https://github.com/bdurb/weather-app#readme"
+  "homepage": "https://github.com/bdurb/weather-app#readme",
+  "dependencies": {
+    "reqeust": "^2.81.1"
+  }
 }
