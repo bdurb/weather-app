@@ -4,7 +4,7 @@ const weatherKey = require('../keys');
 
 const getWeather = (lat, lng, callback) => {
   request({
-    url: `https://aip.forecast.io/forecast/${weatherKey}/${lat},${lng}`,
+    url: `https://aip.darksky.net/forecast/${weatherKey}/${lat},${lng}`,
     json: true
   }, (error, response, body) => {
     if (error) {
